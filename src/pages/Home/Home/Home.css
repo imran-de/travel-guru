@@ -1,0 +1,16 @@
+*{
+    color: #fff;
+}
+.home{
+    min-height: 100vh;
+    background-image: url('../../../images/Rectangle 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-container{
+    background-color: rgba(0,0,0,.65);
+    min-height: 100vh;
+}
+.fa-arrow-right{
+    margin-left: 5px;
+}

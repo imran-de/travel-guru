@@ -1,0 +1,11 @@
+.single-card,.body{
+    background-color: rgba(0,0,0,.3);
+    border-radius: 20px;
+}
+.single-card:hover{
+    border: 3px solid yellow;
+}
+.title{
+    position: absolute;
+    bottom: 10px;
+}
