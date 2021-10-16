@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../../logo.svg';
 import { Button, Container, Form, FormControl, Nav, Navbar } from 'react-bootstrap';
 
@@ -7,7 +8,7 @@ const Header = () => {
         <header>
             <Navbar expand="lg">
                 <Container className="px-5">
-                    <Navbar.Brand href="#"> <img src={logo} alt="" /></Navbar.Brand>
+                    <Navbar.Brand as={Link} to="/"> <img src={logo} alt="" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Form className="d-flex">
@@ -25,6 +26,7 @@ const Header = () => {
                             style={{ maxHeight: '100px' }}
                             navbarScroll
                         >
+                            <Nav.Link as={Link} to="/booking" className="text-white">Book</Nav.Link>
                             <Nav.Link href="#action1" className="text-white">News</Nav.Link>
                             <Nav.Link href="#action2" className="text-white">Destination</Nav.Link>
                             <Nav.Link href="#" className="text-white">Blog</Nav.Link>

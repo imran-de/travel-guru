@@ -1,13 +1,13 @@
 *{
     color: #fff;
 }
-.home{
+.home,.booking{
     min-height: 100vh;
     background-image: url('../../../images/Rectangle 1.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
-.home-container{
+.home-container,.booking-container{
     background-color: rgba(0,0,0,.65);
     min-height: 100vh;
 }

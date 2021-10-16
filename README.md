@@ -4,3 +4,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 - Bootstrap CDN & bootstrap components
+- react router
+- react-hook-from
